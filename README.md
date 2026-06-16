@@ -10,7 +10,7 @@
 [![Agent Skill](https://img.shields.io/badge/Agent-Skill-blueviolet)](skills/deepfork/SKILL.md)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-first--class-d97757)](https://claude.com/claude-code)
 [![Powered by graphify](https://img.shields.io/badge/powered%20by-graphify%2065k★-2a9d9f)](https://github.com/safishamsi/graphify)
-[![Clean Room](https://img.shields.io/badge/method-clean--room-success)](#%EF%B8%8F-why-clean-room)
+[![Clean Room](https://img.shields.io/badge/method-clean--room-success)](#why-clean-room)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](https://github.com/GerardoRdz96/deepfork/pulls)
 
 **DeepFork** is an agent skill that reverse-engineers any open-source repository into<br>
@@ -54,7 +54,7 @@ Without graphify, DeepFork falls back to manual repo mapping. With it: god-node 
 
 | | Artifact | What it is |
 |---|---|---|
-| 🧠 | **`UNDERSTANDING.md`** | The repo explained the way you wish its docs did: the 5 load-bearing pieces, each subsystem, one request traced end-to-end, the non-obvious couplings. Every claim labeled `[VERIFIED]` or `[INFERRED]`. |
+| 🧠 | **`UNDERSTANDING.md`** | The repo explained the way you wish its docs did: the 3-7 load-bearing pieces, each subsystem, one request traced end-to-end, the non-obvious couplings. Every claim labeled `[VERIFIED]` or `[INFERRED]`. |
 | 📐 | **`BLUEPRINT.md`** | A behavioral spec — mechanisms, contracts, build order, test strategy — plus **your customization deltas**. Someone who never saw the original could build from it. That someone is your agent. |
 | 🔨 | **`rebuild/`** | Your version. Clean-room: built from the blueprint with the original source closed. Ships with `ATTRIBUTION.md`. |
 
@@ -81,6 +81,8 @@ flowchart LR
 
 - 🧠 [`UNDERSTANDING.md`](examples/micrograd/UNDERSTANDING.md) — the autograd engine explained in 6 sections, from a real 55-node graph run ($0)
 - 📐 [`BLUEPRINT.md`](examples/micrograd/BLUEPRINT.md) — "gradflow": the TypeScript + built-in-visualizer rebuild spec
+
+<a id="why-clean-room"></a>
 
 ## 🛡️ Why clean-room?
 

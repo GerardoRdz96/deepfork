@@ -117,6 +117,10 @@ This is how engineers have legally reimplemented systems for decades (Compaq vs 
 <br>Claude Code first-class. The skill is plain markdown — Codex, Cursor, Gemini CLI and friends can run it too.
 </details>
 
+## 🤝 Want a repo deepforked for you?
+
+DeepFork is free and MIT-licensed. If you want a specific codebase understood, blueprinted, or rebuilt in your stack by a professional, that is a service we offer at [Penguin Alley](https://penguinalley.com). Write to **hello@penguinalley.com**.
+
 ---
 
 <div align="center">
